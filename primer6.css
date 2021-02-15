@@ -1,0 +1,67 @@
+#container {
+    width: 720px;
+    text-align: justify;
+    background-color: #fff;
+    margin: auto;
+}
+body {
+    background-color: #cccccc;
+    font-family: Verdana;
+    font-size: 11px;
+}
+p:first-letter{
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Times New Roman";
+}
+#content {
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    margin: 0 10px 0 210px;
+}
+#nav {
+    width: 200px;
+    height: 263px;
+    float:left;
+    background-color: #e7e7e7;
+}
+#header {
+    height: 50px;
+    background-color: #b0b0b0;
+}
+#header h1 {
+    padding: 15px 0 0 40px;
+}
+ul {
+    margin: 0; padding: 0; list-style: none;
+}
+a { display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    background: url(images/rol.gif) no-repeat left bottom;
+    text-indent: 40px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: black; text-decoration: none;
+}
+a:hover {
+    background: url(images/rol.gif) no-repeat right bottom;
+    background-position: left-bottom;
+    background-color: #336799;
+    color: white;
+    font-weight: bold;
+}
+a:active {
+    color: black; font-weight: bold; text-decoration: underline;
+}
